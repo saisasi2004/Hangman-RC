@@ -64,9 +64,7 @@
     if (incorrectlyGuessedLettersCount === 7) {
       $("#gameover_message").modal("show");
       var gameOverMessage =
-        "Uh oh. You took too many tries to guess the word. The correct word is - '" +
-        currentWord +
-        "'. Better luck next time.";
+        "Uh oh. You took too many tries to guess the word. Retry again.";
       $(".lead").text(gameOverMessage);
     }
   }
